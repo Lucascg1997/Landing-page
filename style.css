@@ -1,0 +1,68 @@
+body { 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+}
+section {
+    
+    width: 60%;
+}
+
+article {
+   
+    
+    width: 40%;
+}
+.main-photo {
+    width: 600px;
+    height: 500px;
+    background-image: url("https://images-ext-2.discordapp.net/external/y3hc726hTv8sO7W--d-q3qKovbzYEESMOxkfuHQwuEY/%3Fw%3D800%26h%3D800%26auto%3Dcompress%2Cformat/https/begreen.imgix.net/60b0a6c830738308542576.jpg");
+    background-size: cover;
+
+}
+.second-photos {
+    display: flex;
+    
+    
+
+
+}
+
+.second-photos > div {
+    width: 200px;
+    height: 200px;
+    background-image: url("https://images-ext-2.discordapp.net/external/y3hc726hTv8sO7W--d-q3qKovbzYEESMOxkfuHQwuEY/%3Fw%3D800%26h%3D800%26auto%3Dcompress%2Cformat/https/begreen.imgix.net/60b0a6c830738308542576.jpg");
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+
+}
+.menu > div {
+    color: gray;
+    margin: auto 3px;
+}
+.main-content {
+    display: flex;
+}
+
+.list > p {
+    color: gray;
+}
+
+.product > p {
+    font-size: 20px;
+}
+button {
+    font-size: 25px;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    border-style: groove;
+}
+
+
